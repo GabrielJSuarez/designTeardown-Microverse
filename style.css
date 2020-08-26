@@ -15,15 +15,14 @@ html {
     /* 1rem = 10px*/
 }
 
-h1{
+h1 {
     font-size: 4rem;
 }
 
 h2 {
-    font-size: 4.6rem;
+    font-size: 4.5rem;
     margin: 0;
 }
-
 
 *,
 *:before,
@@ -81,13 +80,17 @@ ul.d-flex {
 
 .page-title {
     position: absolute;
-    left: 50rem;
-    top: 5rem;
-    background-color: #fff;
+    left: 25%;
+    top: 3rem;
     font-family: sans-serif;
     font-weight: bolder;
-    width: 30%;
+    width: 50%;
     text-align: center;
+}
+
+.page-title span {
+    background-color: #fff;
+    padding: 0.8rem 1rem;
 }
 
 .grid-container {
@@ -97,7 +100,7 @@ ul.d-flex {
 }
 
 .grid-child {
-    height: 90vh;
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -107,6 +110,7 @@ ul.d-flex {
     color: #fff;
     width: 75%;
     height: 35rem;
+    margin-top: 3rem;
 }
 
 .grid-content p {
@@ -133,6 +137,18 @@ ul.d-flex {
     background-color: #444;
 }
 
+.author-img {
+    margin-bottom: 2rem;
+}
+
+.author-img img {
+    border-radius: 10%;
+    border: 6px solid white;
+    width: 18%;
+    margin-right: 2rem;
+    transform: rotate(-8deg);
+}
+
 .title-comment {
     font-size: 1.5rem;
     font-weight: 900;
@@ -142,10 +158,4 @@ ul.d-flex {
 
 .title-comment i {
     margin-right: 0.5rem;
-}
-
-.author-img img {
-    border-radius: 10%;
-    border: 6px solid white;
-    width: 21%;
 }
