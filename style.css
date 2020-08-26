@@ -131,3 +131,20 @@ ul.d-flex {
 .container-3 {
     background-color: #444;
 }
+
+.title-comment {
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+.title-comment i {
+    margin-right: 0.5rem;
+}
+
+.author-img img {
+    border-radius: 10%;
+    border: 6px solid white;
+    width: 21%;
+}
