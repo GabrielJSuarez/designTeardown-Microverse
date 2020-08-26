@@ -85,11 +85,12 @@ ul.d-flex {
 
 .grid-child {
     height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .grid-content {
-    width: 80%;
-    margin: 30% auto;
     color: #fff;
 }
 
