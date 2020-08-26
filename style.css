@@ -2,14 +2,16 @@
 
 
 /* GLOBALS */
+
 body {
-  max-width: 144rem;
-  margin: 0 auto
+    max-width: 144rem;
+    margin: 0 auto
 }
 
 html {
     box-sizing: border-box;
-    font-size: 62.5%; /* 1rem = 10px*/ 
+    font-size: 62.5%;
+    /* 1rem = 10px*/
 }
 
 *,
@@ -23,30 +25,35 @@ img {
     height: auto;
 }
 
-.d-flex {
-  display:flex
+ul {
+    margin: 0;
 }
+
+.d-flex {
+    display: flex
+}
+
+
 /*  HEADER */
+
 .navbar {
-  background-color: rgb(46, 45, 45);
-  color: #fff;
-  height: 3.5rem;
-  padding: 0 0.8rem;
+    background-color: rgba(46, 45, 45, 0.8);
+    color: #fff;
+    padding: 0 0.8rem;
 }
 
 ul.d-flex {
-  list-style: none;
-  padding: 0;
-  justify-content: space-between;
-  align-items: center;
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .d-flex li {
-  padding: 0.5rem 0;
-  font-size: 1.5rem;
-  font-weight: bold;
+    padding: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
 }
 
 .searh-top {
-  justify-content: space-between;
+    justify-content: space-around;
 }
