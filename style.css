@@ -33,6 +33,10 @@ ul {
     display: flex
 }
 
+.main-container {
+    position: relative;
+}
+
 
 /*  HEADER */
 
@@ -64,6 +68,15 @@ ul.d-flex {
 
 /* MAIN CONTENT */
 
+.page-title {
+    position: absolute;
+    left: 50rem;
+    top: 5rem;
+    background-color: #fff;
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+
 .grid-container {
     display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
@@ -77,6 +90,7 @@ ul.d-flex {
 .grid-content {
     width: 80%;
     margin: 30% auto;
+    color: #fff;
 }
 
 .container-1,
