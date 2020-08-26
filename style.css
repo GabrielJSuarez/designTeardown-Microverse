@@ -37,7 +37,7 @@ ul {
 /*  HEADER */
 
 .navbar {
-    background-color: rgba(46, 45, 45, 0.8);
+    background-color: #333;
     color: #fff;
     padding: 0 0.8rem;
 }
@@ -56,4 +56,38 @@ ul.d-flex {
 
 .searh-top {
     justify-content: space-around;
+}
+
+
+/*---------------------*/
+
+
+/* MAIN CONTENT */
+
+.grid-container {
+    display: grid;
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    align-self: center;
+}
+
+.grid-child {
+    height: 90vh;
+}
+
+.grid-content {
+    width: 80%;
+    margin: 30% auto;
+}
+
+.container-1,
+.container-4 {
+    background-color: #666;
+}
+
+.container-2 {
+    background-color: #999;
+}
+
+.container-3 {
+    background-color: #444;
 }
