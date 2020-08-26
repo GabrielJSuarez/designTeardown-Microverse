@@ -43,6 +43,10 @@ ul {
     display: flex
 }
 
+.flex-space {
+    justify-content: space-between;
+}
+
 .main-container {
     position: relative;
 }
@@ -157,5 +161,14 @@ ul.d-flex {
 }
 
 .title-comment i {
+    margin-right: 0.5rem;
+}
+
+.hash-info p {
+    margin-top: 3rem;
+    margin-right: 3rem;
+}
+
+.hash-info p i {
     margin-right: 0.5rem;
 }
