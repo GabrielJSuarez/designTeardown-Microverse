@@ -11,8 +11,18 @@ body {
 html {
     box-sizing: border-box;
     font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
     /* 1rem = 10px*/
 }
+
+h1{
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 4.6rem;
+}
+
 
 *,
 *:before,
@@ -75,6 +85,8 @@ ul.d-flex {
     background-color: #fff;
     font-family: sans-serif;
     font-weight: bolder;
+    width: 30%;
+    text-align: center;
 }
 
 .grid-container {
@@ -92,6 +104,19 @@ ul.d-flex {
 
 .grid-content {
     color: #fff;
+    width: 75%;
+    height: 35rem;
+}
+
+.grid-content p {
+    font-size: 1.7rem;
+}
+
+.grid-content p span {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 400;
 }
 
 .container-1,
