@@ -475,3 +475,14 @@ ul.d-flex {
 .guides-announcements {
     background-color: #000;
 }
+
+
+/*----------------------*/
+
+
+/* FOOTER */
+
+.footer-container {
+    height: 70rem;
+    background-color: #000;
+}
