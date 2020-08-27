@@ -43,6 +43,10 @@ ul {
     display: flex
 }
 
+.d-grid {
+    display: grid;
+}
+
 .flex-space {
     justify-content: space-between;
 }
@@ -80,6 +84,7 @@ ul.d-flex {
 .logo-nav {
     width: 4rem;
 }
+
 
 /*---------------------*/
 
@@ -177,42 +182,83 @@ ul.d-flex {
     margin-right: 0.5rem;
 }
 
+
+/*----------------------*/
+
+
+/* POST HEAT-MAPS */
+
 .posts-container {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 3rem ;
-    row-gap: 5rem;
+    gap: 3rem 5rem;
     margin-top: 2.5rem;
 }
 
 .post {
-    height: 40rem;
+    height: 60rem;
 }
 
 .post-title {
-    background-color: #111;
+    background-color: #000;
     height: 30%;
     margin-bottom: 1.5rem;
 }
 
+.post-title-less {
+    background-color: #111;
+}
+
 .post-content {
-    background-color: #333;
+    background-color: #555;
     height: 70%;
 }
 
 
+/*-------------------*/
 
-.posts-pictures {
-    margin-top: 4rem;
-    display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
-    grid-gap: 3rem ;
-   
+.grid-membership {
+    margin-top: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    height: 50rem;
 }
 
-.announsment {
+.grid-membership-text {
+    background-color: #666;
+}
+
+.member-text {
+    margin: 2rem auto;
+    width: 70%;
+    height: 60%;
+    background-color: #444;
+}
+
+.member-buttom {
+    margin: 1rem auto;
+    width: 50%;
+    height: 20%;
+    background-color: #222;
+}
+
+.grid-membership-picture {
+    background-color: #111;
+}
+
+
+/*--------------------*/
+
+.posts-pictures {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.announcements {
     background-color: #000;
-    padding: 3rem 0;
+    margin: 0 1rem;
 }
 
 .announsment-picture {
@@ -242,4 +288,3 @@ ul.d-flex {
     width: 70%;
     margin: 10px auto;
 }
-
