@@ -288,3 +288,45 @@ ul.d-flex {
     width: 70%;
     margin: 10px auto;
 }
+
+
+/*--------------------------------*/
+
+.episodes-container {
+    background-color: #000;
+    height: 80rem;
+    margin-top: 5rem;
+}
+
+.episodes-img {
+    border-radius: 50%;
+    background-color: #fff;
+    height: 30%;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.episodes-title {
+    width: 20%;
+    height: 10%;
+    margin: 0 auto;
+    background-color: #DCDCDC;
+    margin-top: 3rem;
+}
+
+.episodes-text {
+    width: 60%;
+    height: 40%;
+    margin: 0 auto;
+    background-color: #A9A9A9;
+    margin-top: 3rem;
+}
+
+.episodes-buttom {
+    width: 20%;
+    height: 8%;
+    margin: 0 auto;
+    background-color: #D3D3D3;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
