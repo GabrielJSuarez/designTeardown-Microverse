@@ -334,6 +334,9 @@ ul.d-flex {
     border-radius: 11px;
 }
 
+
+/*------------------------------*/
+
 .person-week-container {
     margin-top: 2rem;
     display: grid;
@@ -364,7 +367,7 @@ ul.d-flex {
 }
 
 .persons-container {
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     height: 60rem;
     margin-top: 3rem;
@@ -379,10 +382,96 @@ ul.d-flex {
 }
 
 .person .person-img {
-    background-color: #686868;	 
+    background-color: #686868;
 }
 
 .person .person-title {
-    background-color:#000;	
+    background-color: #000;
 }
 
+
+/*------------------------*/
+
+.design-grid {
+    background-color: #000;
+    height: 50rem;
+    margin-top: 5rem;
+    padding: 3rem;
+    grid-template-columns: 3fr 1fr;
+    padding: 2rem;
+}
+
+.design-grid .episodes-title {
+    width: 30%;
+    height: 20%;
+    margin: 0 5rem;
+    background-color: #fff;
+    margin-top: 3rem;
+}
+
+.design-grid .episodes-text {
+    width: 75%;
+    height: 25%;
+    margin: 0 5rem;
+    background-color: #A9A9A9;
+    margin-top: 3rem;
+}
+
+.design-grid .episodes-buttom {
+    width: 30%;
+    height: 20%;
+    background-color: #F5F5F5;
+    margin: 3rem 5rem;
+    border-radius: 11px;
+}
+
+.design-grid .episodes-img {
+    background-color: #D3D3D3;
+    height: 95%;
+    width: 95%;
+    margin: 0 auto;
+}
+
+
+/*-------------------------*/
+
+.guides-grid {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 3rem;
+    height: 120rem;
+    background-color: #fff;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.guides-child .episodes-title {
+    width: 70%;
+    height: 15%;
+    margin: 0 5rem;
+    background-color: #808080;
+    margin-top: 3rem;
+}
+
+.guides-child .episodes-buttom {
+    width: 50%;
+    height: 15%;
+    background-color: #808080;
+    margin: 3rem 5rem;
+    border-radius: 11px;
+}
+
+.guides-child .episodes-text {
+    width: 70%;
+    height: 30%;
+    margin: 0 5rem;
+    background-color: #BEBEBE;
+    margin-top: 3rem;
+}
+
+.guides-child {
+    background-color: #D3D3D3;
+}
+
+.guides-announcements {
+    background-color: #000;
+}
