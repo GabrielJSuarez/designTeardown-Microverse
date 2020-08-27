@@ -5,14 +5,14 @@
 
 body {
     max-width: 144rem;
-    margin: 0 auto
+    margin: 0 auto;
 }
 
 html {
     box-sizing: border-box;
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
-    /* 1rem = 10px*/
+    /* 1rem = 10px */
 }
 
 h1 {
@@ -25,8 +25,8 @@ h2 {
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
     box-sizing: inherit;
 }
 
@@ -92,7 +92,9 @@ ul.d-flex {
 .bg-black {
     background-color: #000;
 }
-/*---------------------*/
+
+
+/* --------------------- */
 
 
 /* MAIN CONTENT */
@@ -186,7 +188,7 @@ ul.d-flex {
 }
 
 
-/*----------------------*/
+/* ---------------------- */
 
 
 /* POST HEAT-MAPS */
@@ -216,7 +218,7 @@ ul.d-flex {
 }
 
 
-/*-------------------*/
+/* ------------------- */
 
 .grid-membership {
     margin-top: 5rem;
@@ -248,7 +250,7 @@ ul.d-flex {
 }
 
 
-/*--------------------*/
+/* -------------------- */
 
 .posts-pictures {
     grid-template-columns: 2fr 1fr 1fr;
@@ -271,6 +273,7 @@ ul.d-flex {
     margin: 10px auto;
 }
 
+
 /*--------------------------------*/
 
 .episodes-container {
@@ -289,7 +292,7 @@ ul.d-flex {
     width: 20%;
     height: 10%;
     margin: 0 auto;
-    background-color: #DCDCDC;
+    background-color: #dcdcdc;
     margin-top: 3rem;
 }
 
@@ -297,20 +300,20 @@ ul.d-flex {
     width: 49%;
     height: 13%;
     margin: 0 auto;
-    background-color: #A9A9A9;
+    background-color: #a9a9a9;
     margin-top: 3rem;
 }
 
 .episodes-buttom {
     width: 25%;
     height: 13%;
-    background-color: #D3D3D3;
+    background-color: #d3d3d3;
     margin: 3rem auto;
     border-radius: 11px;
 }
 
 
-/*------------------------------*/
+/* ------------------------------ */
 
 .person-week-container {
     margin-top: 2rem;
@@ -332,7 +335,7 @@ ul.d-flex {
 }
 
 .person-description {
-    background-color: #D8D8D8;
+    background-color: #d8d8d8;
     width: 95%;
     height: 54%;
     margin: 0 1rem;
@@ -355,7 +358,8 @@ ul.d-flex {
     background-color: #686868;
 }
 
-/*------------------------*/
+
+/* ------------------------ */
 
 .design-grid {
     height: 50rem;
@@ -375,20 +379,20 @@ ul.d-flex {
     width: 75%;
     height: 25%;
     margin: 0 5rem;
-    background-color: #A9A9A9;
+    background-color: #a9a9a9;
     margin-top: 3rem;
 }
 
 .design-grid .episodes-buttom {
     width: 30%;
     height: 20%;
-    background-color: #F5F5F5;
+    background-color: #f5f5f5;
     margin: 3rem 5rem;
     border-radius: 11px;
 }
 
 .design-grid .episodes-img {
-    background-color: #D3D3D3;
+    background-color: #d3d3d3;
     height: 95%;
     width: 95%;
     margin: 0 auto;
@@ -425,15 +429,16 @@ ul.d-flex {
     width: 70%;
     height: 30%;
     margin: 0 5rem;
-    background-color: #BEBEBE;
+    background-color: #bebebe;
     margin-top: 3rem;
 }
 
 .guides-child {
-    background-color: #D3D3D3;
+    background-color: #d3d3d3;
 }
 
-/*----------------------*/
+
+/* ---------------------- */
 
 
 /* FOOTER */
@@ -460,15 +465,14 @@ ul.d-flex {
     grid-template-columns: 1fr 2fr 1fr;
     height: 30%;
     width: 70%;
-    background-color: #C0C0C0;
+    background-color: #c0c0c0;
     margin: 4rem auto;
 }
 
 .nav-img {
-    background-color: #585858
+    background-color: #585858;
 }
 
 .nav-content {
-    background-color: #E8E8E8;
-
+    background-color: #e8e8e8;
 }
