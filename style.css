@@ -40,7 +40,7 @@ ul {
 }
 
 .d-flex {
-    display: flex
+    display: flex;
 }
 
 .d-grid {
@@ -85,7 +85,13 @@ ul.d-flex {
     width: 4rem;
 }
 
+.bg-white {
+    background-color: #fff;
+}
 
+.bg-black {
+    background-color: #000;
+}
 /*---------------------*/
 
 
@@ -102,19 +108,16 @@ ul.d-flex {
 }
 
 .page-title span {
-    background-color: #fff;
     padding: 0.8rem 1rem;
 }
 
 .grid-container {
-    display: grid;
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     align-self: center;
 }
 
 .grid-child {
     height: 70rem;
-    display: flex;
     justify-content: center;
     align-items: center;
 }
@@ -189,7 +192,6 @@ ul.d-flex {
 /* POST HEAT-MAPS */
 
 .posts-container {
-    display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 3rem 5rem;
     margin-top: 2.5rem;
@@ -200,7 +202,6 @@ ul.d-flex {
 }
 
 .post-title {
-    background-color: #000;
     height: 30%;
     margin-bottom: 1.5rem;
 }
@@ -250,7 +251,6 @@ ul.d-flex {
 /*--------------------*/
 
 .posts-pictures {
-    display: grid;
     grid-template-columns: 2fr 1fr 1fr;
     gap: 3rem;
     margin-top: 4rem;
@@ -261,22 +261,7 @@ ul.d-flex {
 }
 
 .announcements {
-    background-color: #000;
     margin: 0 1rem;
-}
-
-.announsment-picture {
-    background-color: #fff;
-    height: 55%;
-    width: 70%;
-    margin: 10px auto;
-}
-
-.announcement-title {
-    background-color: #fff;
-    height: 10%;
-    width: 50%;
-    margin: 10px auto;
 }
 
 .announcement-content {
@@ -286,25 +271,15 @@ ul.d-flex {
     margin: 10px auto;
 }
 
-.announcement-button {
-    background-color: #fff;
-    height: 30%;
-    width: 70%;
-    margin: 10px auto;
-}
-
-
 /*--------------------------------*/
 
 .episodes-container {
-    background-color: #000;
     height: 80rem;
     margin-top: 5rem;
     padding: 3rem;
 }
 
 .episodes-img {
-    background-color: #fff;
     height: 45%;
     width: 58%;
     margin: 0 auto;
@@ -339,14 +314,11 @@ ul.d-flex {
 
 .person-week-container {
     margin-top: 2rem;
-    display: grid;
     grid-template-columns: 1fr 3fr;
     height: 30rem;
-    background-color: #000;
 }
 
 .person-img {
-    background-color: #fff;
     width: 80%;
     height: 67%;
     margin: 4rem auto;
@@ -371,13 +343,11 @@ ul.d-flex {
     grid-gap: 2rem;
     height: 60rem;
     margin-top: 3rem;
-    background-color: #000;
     padding: 2rem 1rem;
 }
 
 .person {
     height: 86%;
-    background-color: #fff;
     grid-template-columns: 1fr 3fr;
 }
 
@@ -385,18 +355,11 @@ ul.d-flex {
     background-color: #686868;
 }
 
-.person .person-title {
-    background-color: #000;
-}
-
-
 /*------------------------*/
 
 .design-grid {
-    background-color: #000;
     height: 50rem;
     margin-top: 5rem;
-    padding: 3rem;
     grid-template-columns: 3fr 1fr;
     padding: 2rem;
 }
@@ -405,7 +368,6 @@ ul.d-flex {
     width: 30%;
     height: 20%;
     margin: 0 5rem;
-    background-color: #fff;
     margin-top: 3rem;
 }
 
@@ -439,7 +401,6 @@ ul.d-flex {
     grid-template: repeat(2, 1fr) / repeat(2, 1fr);
     gap: 3rem;
     height: 120rem;
-    background-color: #fff;
     margin-top: 5rem;
     padding: 2rem;
 }
@@ -472,11 +433,6 @@ ul.d-flex {
     background-color: #D3D3D3;
 }
 
-.guides-announcements {
-    background-color: #000;
-}
-
-
 /*----------------------*/
 
 
@@ -484,5 +440,35 @@ ul.d-flex {
 
 .footer-container {
     height: 70rem;
-    background-color: #000;
+    padding: 3rem 0;
+}
+
+.title-footer {
+    height: 4%;
+    width: 15%;
+    background-color: #606060;
+    margin: 3rem auto;
+}
+
+.nav-topics {
+    height: 40%;
+    width: 75%;
+    margin: 0 auto;
+}
+
+.nav-links {
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 30%;
+    width: 70%;
+    background-color: #C0C0C0;
+    margin: 4rem auto;
+}
+
+.nav-img {
+    background-color: #585858
+}
+
+.nav-content {
+    background-color: #E8E8E8;
+
 }
