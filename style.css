@@ -1,0 +1,474 @@
+/* stylelint-disable */
+
+
+/* STYLE SHEET */
+
+
+/* GLOBALS */
+
+body {
+    max-width: 144rem;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+    /* 1rem = 10px */
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 4.5rem;
+    margin: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+ul {
+    margin: 0;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.d-grid {
+    display: grid;
+}
+
+.flex-space {
+    justify-content: space-between;
+}
+
+.main-container {
+    position: relative;
+}
+
+.center-container {
+    margin: 0 auto;
+}
+
+.mt-3 {
+    margin-top: 3rem;
+}
+
+
+/*  HEADER */
+
+.navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 0 0.8rem;
+}
+
+ul.d-flex {
+    list-style: none;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.d-flex li {
+    padding: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    background-color: #8b8b8b;
+}
+
+.searh-top {
+    justify-content: space-around;
+}
+
+.logo-nav {
+    width: 4rem;
+}
+
+.bg-white {
+    background-color: #fff;
+}
+
+.bg-black {
+    background-color: #000;
+}
+
+
+/* --------------------- */
+
+
+/* MAIN CONTENT */
+
+.page-title {
+    position: absolute;
+    left: 25%;
+    top: 3rem;
+    font-family: sans-serif;
+    font-weight: bolder;
+    width: 50%;
+    text-align: center;
+}
+
+.page-title span {
+    padding: 0.8rem 1rem;
+}
+
+.grid-container {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    align-self: center;
+}
+
+.grid-child {
+    height: 70rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-content {
+    color: #fff;
+    width: 75%;
+    height: 35rem;
+}
+
+.grid-content p {
+    font-size: 1.7rem;
+}
+
+.grid-content p span {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+    font-style: italic;
+    font-weight: 400;
+}
+
+.container-1,
+.container-4 {
+    background-color: #666;
+}
+
+.container-2 {
+    background-color: #999;
+}
+
+.container-3 {
+    background-color: #444;
+}
+
+.author-img {
+    margin-bottom: 2rem;
+}
+
+.author-img img {
+    border-radius: 10%;
+    border: 6px solid white;
+    width: 18%;
+    margin-right: 2rem;
+    transform: rotate(-8deg);
+}
+
+.title-comment {
+    font-size: 1.5rem;
+    font-weight: 900;
+    display: inline-block;
+    padding-bottom: 1rem;
+}
+
+.title-comment i {
+    margin-right: 0.5rem;
+}
+
+.hash-info p {
+    margin-right: 3rem;
+}
+
+.hash-info p i {
+    margin-right: 0.5rem;
+}
+
+
+/* ---------------------- */
+
+
+/* POST HEAT-MAPS */
+
+.posts-container {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem 5rem;
+    margin-top: 2.5rem;
+}
+
+.post {
+    height: 60rem;
+}
+
+.post-title {
+    height: 30%;
+    margin-bottom: 1.5rem;
+}
+
+.post-title-less {
+    background-color: #111;
+}
+
+.post-content {
+    background-color: #555;
+    height: 70%;
+}
+
+
+/* ------------------- */
+
+.grid-membership {
+    margin-top: 5rem;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1rem;
+    height: 50rem;
+}
+
+.grid-membership-text {
+    background-color: #666;
+}
+
+.member-text {
+    margin: 2rem auto;
+    width: 70%;
+    height: 60%;
+    background-color: #444;
+}
+
+.member-buttom {
+    margin: 1rem auto;
+    width: 50%;
+    height: 20%;
+    background-color: #222;
+}
+
+.grid-membership-picture {
+    background-color: #111;
+}
+
+
+/* -------------------- */
+
+.posts-pictures {
+    grid-template-columns: 2fr 1fr 1fr;
+    gap: 3rem;
+    margin-top: 4rem;
+}
+
+.second-cont {
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
+.announcements {
+    margin: 0 1rem;
+}
+
+.announcement-content {
+    background-color: #333;
+    height: 15%;
+    width: 60%;
+    margin: 10px auto;
+}
+
+
+/*--------------------------------*/
+
+.episodes-container {
+    height: 80rem;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+
+.episodes-img {
+    height: 45%;
+    width: 58%;
+}
+
+.episodes-title {
+    width: 20%;
+    height: 10%;
+    background-color: #dcdcdc;
+}
+
+.episodes-text {
+    width: 49%;
+    height: 13%;
+    background-color: #a9a9a9;
+}
+
+.episodes-buttom {
+    width: 25%;
+    height: 13%;
+    background-color: #d3d3d3;
+    margin: 3rem auto;
+    border-radius: 11px;
+}
+
+
+/* ------------------------------ */
+
+.person-week-container {
+    margin-top: 2rem;
+    grid-template-columns: 1fr 3fr;
+    height: 30rem;
+}
+
+.person-img {
+    width: 80%;
+    height: 67%;
+    margin: 4rem auto;
+}
+
+.person-title {
+    background-color: #989898;
+    width: 39%;
+    height: 13%;
+    margin: 2rem 1rem;
+}
+
+.person-description {
+    background-color: #d8d8d8;
+    width: 95%;
+    height: 54%;
+    margin: 0 1rem;
+}
+
+.persons-container {
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    height: 60rem;
+    padding: 2rem 1rem;
+}
+
+.person {
+    height: 86%;
+    grid-template-columns: 1fr 3fr;
+}
+
+.person .person-img {
+    background-color: #686868;
+}
+
+
+/* ------------------------ */
+
+.design-grid {
+    height: 50rem;
+    margin-top: 5rem;
+    grid-template-columns: 3fr 1fr;
+    padding: 2rem;
+}
+
+.design-grid .episodes-title {
+    width: 30%;
+    height: 20%;
+    margin: 0 5rem;
+}
+
+.design-grid .episodes-text {
+    width: 75%;
+    height: 25%;
+    margin: 0 5rem;
+    background-color: #a9a9a9;
+}
+
+.design-grid .episodes-buttom {
+    width: 30%;
+    height: 20%;
+    background-color: #f5f5f5;
+    margin: 3rem 5rem;
+    border-radius: 11px;
+}
+
+.design-grid .episodes-img {
+    background-color: #d3d3d3;
+    height: 95%;
+    width: 95%;
+}
+
+
+/*-------------------------*/
+
+.guides-grid {
+    grid-template: repeat(2, 1fr) / repeat(2, 1fr);
+    gap: 3rem;
+    height: 120rem;
+    margin-top: 5rem;
+    padding: 2rem;
+}
+
+.guides-child .episodes-title {
+    width: 70%;
+    height: 15%;
+    margin: 0 5rem;
+    background-color: #808080;
+}
+
+.guides-child .episodes-buttom {
+    width: 50%;
+    height: 15%;
+    background-color: #808080;
+    margin: 3rem 5rem;
+    border-radius: 11px;
+}
+
+.guides-child .episodes-text {
+    width: 70%;
+    height: 30%;
+    margin: 0 5rem;
+    background-color: #bebebe;
+}
+
+.guides-child {
+    background-color: #d3d3d3;
+}
+
+
+/* ---------------------- */
+
+
+/* FOOTER */
+
+.footer-container {
+    height: 70rem;
+    padding: 3rem 0;
+}
+
+.title-footer {
+    height: 4%;
+    width: 15%;
+    background-color: #606060;
+    margin: 3rem auto;
+}
+
+.nav-topics {
+    height: 40%;
+    width: 75%;
+}
+
+.nav-links {
+    grid-template-columns: 1fr 2fr 1fr;
+    height: 30%;
+    width: 70%;
+    background-color: #c0c0c0;
+    margin: 4rem auto;
+}
+
+.nav-img {
+    background-color: #585858;
+}
+
+.nav-content {
+    background-color: #e8e8e8;
+}

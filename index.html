@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1ba545dca5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="normalize.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,500;0,600;0,700;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,500;0,700;0,900;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>Smashing Magazine</title>
+</head>
+
+
+<body class="center-container">
+    <header>
+        <nav class="navbar">
+            <ul class="d-flex">
+                <li><img class="logo-nav" src="./assets/images/logo.svg" alt="Image1"></li>
+                <li>Articles</li>
+                <li>Guides</li>
+                <li>Books</li>
+                <li>Events</li>
+                <li>Membership</li>
+                <li>Jobs</li>
+                <li>Mobs</li>
+                <li><img src="#" alt=""></li>
+                <li class="searh-top d-flex">
+                    <input type="search" placeholder="Search articles...">
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main-container">
+        <h1 class="page-title">
+            <span class="bg-white">Don’t Miss These Latest</span>
+            <br>
+            <span class="bg-white">Articles</span>
+        </h1>
+        <div class="grid-container d-grid">
+            <article class="grid-child container-1 d-flex">
+                <div class="grid-content mt-3">
+                    <div class="author-img d-flex">
+                        <img src="./assets/images/user1.jpg" alt="">
+                        <p>Fortune Ikechi <span>wrote</span></p>
+                    </div>
+
+                    <h2>
+                        Using Mobx As A State Manager In React Native Applications <sup class="title-comment"><i
+                                class="fas fa-comment-alt"></i> Leave a
+                            comment</sup>
+                    </h2>
+
+                    <div class="d-flex hash-info">
+                        <p class="mt-3">
+                            <i class="fas fa-hashtag"></i>Apps <sup>214</sup>
+                        </p>
+                        <p class="mt-3">
+                            <i class="fas fa-hashtag"></i>Native <sup>214</sup>
+                        </p>
+                        <p class="mt-3">
+                            <i class="fas fa-hashtag"></i>React <sup>214</sup>
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="grid-child container-2 d-flex">
+                <div class="grid-content mt-3">
+                    <div class="author-img d-flex">
+                        <img src="./assets/images/user2.jpg" alt="">
+                        <p>Travis Jamison <span>wrote</span></p>
+                    </div>
+                    <h2>
+                        How To Create Customer-<br> Centric Landing Pages <sup class="title-comment"><i
+                                class="fas fa-comment-alt"></i> Leave a comment</sup>
+                    </h2>
+
+                    <div class="d-flex hash-info">
+                        <p class="mt-3">
+                            <i class="fas fa-hashtag"></i>Business <sup>305</sup>
+                        </p>
+                        <p class="mt-3">
+                            <i class="fas fa-hashtag"></i>User Expirience <sup>310</sup>
+                        </p>
+                        <p class="mt-3">
+                            <i class="fas fa-hashtag"></i>Product Strategy<sup>48</sup>
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="grid-child container-3 d-flex">
+                <div class="grid-content mt-3">
+                    <div class="author-img d-flex">
+                        <img src="./assets/images/user3.jpg" alt="">
+                        <p>Drew McLellan <span>wrote</span></p>
+                    </div>
+                    <h2>
+                        Smashing Podcast Episode 23 With Guillermo Rauch: What Is Next.js? <sup class="title-comment"><i
+                                class="fas fa-comment-alt"></i> Leave a comment</sup>
+                    </h2>
+
+                    <div class="d-flex hash-info">
+                        <p class="mt-3">
+                            <i class="fas fa-hashtag"></i>Smashing Podcast <sup>23</sup>
+                        </p>
+                    </div>
+                </div>
+            </article>
+
+            <article class="grid-child container-4 d-flex">
+                <div class="grid-content mt-3">
+                    <div class="author-img d-flex">
+                        <img src="./assets/images/user4.jpg" alt="">
+                        <p>Amar Thakur <span>wrote</span></p>
+                    </div>
+
+                    <h2>
+                        How To Build Your Own Comment System Using Firebase
+
+                        <span class="title-comment">
+                            <i class="fas fa-comment-alt"></i>
+                            Leave a
+                            comment</span>
+                    </h2>
+
+                    <div class="d-flex hash-info">
+
+                        <p class="mt-3">
+                            <i class="fas fa-hashtag"></i>Tools <sup>247</sup>
+                        </p>
+                        <p class="mt-3">
+                            <i class="fas fa-hashtag"></i>Servers <sup>21</sup>
+                        </p>
+                        <p class="mt-3">
+                            <i class="fas fa-hashtag"></i>Static Generators<sup>16</sup>
+                        </p>
+                    </div>
+                </div>
+            </article>
+        </div>
+
+
+        <!--Smashing Membership-->
+        <!--
+        <div class="d-grid grid-membership">
+            <div class="grid-member grid-membership-text">
+                <div class="member-text"></div>
+                <div class="member-buttom"></div>
+            </div>
+            <div class="grid-member grid-membership-picture"></div>
+        </div>-->
+
+        <!--Articles-->
+        <div class="posts-container d-grid">
+            <div class="post">
+                <div class="post-title bg-black"></div>
+                <div class="post-content"></div>
+            </div>
+            <div class="post">
+                <div class="post-title bg-black"></div>
+                <div class="post-content"></div>
+            </div>
+            <div class="post">
+                <div class="post-title bg-black"></div>
+                <div class="post-content"></div>
+            </div>
+        </div>
+
+
+        <div class="posts-pictures d-grid">
+            <div class="announcements bg-black">
+            </div>
+
+            <div class="post">
+                <div class="post-title post-title-less"></div>
+                <div class="post-content"></div>
+            </div>
+
+            <div class="post">
+                <div class="post-title post-title-less"></div>
+                <div class="post-content"></div>
+            </div>
+        </div>
+
+        <div class="posts-pictures second-cont d-grid">
+            <div class="post">
+                <div class="post-title post-title-less"></div>
+                <div class="post-content"></div>
+            </div>
+            <div class="post">
+                <div class="post-title post-title-less"></div>
+                <div class="post-content"></div>
+            </div>
+            <div class="announcements bg-black">
+            </div>
+        </div>
+
+        <!--Episodes-->
+        <div class="episodes-container bg-black">
+            <div class="episodes-title mt-3 center-container"></div>
+            <div class="episodes-text mt-3 center-container"></div>
+            <div class="episodes-buttom"></div>
+            <div class="episodes-img bg-white center-container"></div>
+        </div>
+
+        <!--Persons-->
+        <div class="person-week-container bg-black d-grid">
+            <div class="person-img bg-white"></div>
+            <div class="person-text">
+                <div class="person-title bg-black"></div>
+                <div class="person-description"></div>
+            </div>
+        </div>
+
+        <div class="persons-container d-grid bg-black mt-3">
+            <div class="person d-grid bg-white">
+                <div class="person-img"></div>
+                <div class="person-text">
+                    <div class="person-title bg-black"></div>
+                    <div class="person-description"></div>
+                </div>
+            </div>
+            <div class="person d-grid bg-white">
+                <div class="person-img"></div>
+                <div class="person-text">
+                    <div class="person-title bg-black"></div>
+                    <div class="person-description"></div>
+                </div>
+            </div>
+            <div class="person d-grid bg-white">
+                <div class="person-img"></div>
+                <div class="person-text">
+                    <div class="person-title bg-black"></div>
+                    <div class="person-description"></div>
+                </div>
+            </div>
+            <div class="person d-grid bg-white">
+                <div class="person-img"></div>
+                <div class="person-text">
+                    <div class="person-title bg-black"></div>
+                    <div class="person-description"></div>
+                </div>
+            </div>
+            <div class="person d-grid bg-white">
+                <div class="person-img"></div>
+                <div class="person-text">
+                    <div class="person-title bg-black"></div>
+                    <div class="person-description"></div>
+                </div>
+            </div>
+            <div class="person d-grid bg-white">
+                <div class="person-img"></div>
+                <div class="person-text">
+                    <div class="person-title bg-black"></div>
+                    <div class="person-description"></div>
+                </div>
+            </div>
+        </div>
+
+        <!--Design section-->>
+
+        <div class="design-grid d-grid bg-black">
+            <div>
+                <div class="episodes-title mt-3 center-container"></div>
+                <div class="episodes-text mt-3 center-container"></div>
+                <div class="episodes-buttom"></div>
+            </div>
+            <div class="episodes-img bg-white center-container"></div>
+        </div>
+
+        <!--Guides Section-->
+
+        <div class="guides-grid d-grid bg-white">
+            <div class="guides-child">
+                <div class="episodes-title mt-3 center-container"></div>
+                <div class="episodes-text mt-3 center-container"></div>
+                <div class="episodes-buttom"></div>
+            </div>
+
+            <div class="guides-child">
+                <div class="episodes-title mt-3 center-container"></div>
+                <div class="episodes-text mt-3 center-container"></div>
+                <div class="episodes-buttom"></div>
+            </div>
+
+            <div class="guides-child">
+                <div class="episodes-title mt-3 center-container"></div>
+                <div class="episodes-text mt-3 center-container"></div>
+                <div class="episodes-buttom"></div>
+            </div>
+
+            <div class="guides-announcements bg-black"></div>
+        </div>
+
+    </main>
+
+    <footer class="footer-container bg-black">
+        <div class="title-footer"></div>
+        <div class="nav-topics bg-white center-container"></div>
+        <div class="nav-links d-grid">
+            <div class="nav-img"></div>
+            <div class="nav-content"></div>
+            <div class="nav-img"></div>
+        </div>
+    </footer>
+
+
+</body>
+
+</html>
