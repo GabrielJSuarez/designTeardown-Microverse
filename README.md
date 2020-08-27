@@ -6,7 +6,7 @@
 
 https://www.smashingmagazine.com/
 
-![Alt text](https://github.com/GabrielJSuarez/backgroundAndGradients-Microverse/blob/feature-clone-branch/screenshot.png?raw=true "Screenshot")
+![Alt text](https://github.com/GabrielJSuarez/designTeardown-Microverse/blob/cloneBranch-Feature/assets/images/screenshot.png?raw=true "Screenshot")
 
 ## Built With
 
@@ -14,7 +14,7 @@ https://www.smashingmagazine.com/
 
 ## Live Demo
 
-[Live Demo Link](https://gabrieljsuarez.github.io/backgroundAndGradients-Microverse/)
+[Live Demo Link](https://gabrieljsuarez.github.io/designTeardown-Microverse/)
 
 
 ## Getting Started
