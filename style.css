@@ -8,7 +8,6 @@
 
 body {
     max-width: 144rem;
-    margin: 0 auto;
 }
 
 html {
@@ -56,6 +55,14 @@ ul {
 
 .main-container {
     position: relative;
+}
+
+.center-container {
+    margin: 0 auto;
+}
+
+.mt-3 {
+    margin-top: 3rem;
 }
 
 
@@ -131,7 +138,6 @@ ul.d-flex {
     color: #fff;
     width: 75%;
     height: 35rem;
-    margin-top: 3rem;
 }
 
 .grid-content p {
@@ -182,7 +188,6 @@ ul.d-flex {
 }
 
 .hash-info p {
-    margin-top: 3rem;
     margin-right: 3rem;
 }
 
@@ -288,23 +293,18 @@ ul.d-flex {
 .episodes-img {
     height: 45%;
     width: 58%;
-    margin: 0 auto;
 }
 
 .episodes-title {
     width: 20%;
     height: 10%;
-    margin: 0 auto;
     background-color: #dcdcdc;
-    margin-top: 3rem;
 }
 
 .episodes-text {
     width: 49%;
     height: 13%;
-    margin: 0 auto;
     background-color: #a9a9a9;
-    margin-top: 3rem;
 }
 
 .episodes-buttom {
@@ -348,7 +348,6 @@ ul.d-flex {
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 2rem;
     height: 60rem;
-    margin-top: 3rem;
     padding: 2rem 1rem;
 }
 
@@ -375,7 +374,6 @@ ul.d-flex {
     width: 30%;
     height: 20%;
     margin: 0 5rem;
-    margin-top: 3rem;
 }
 
 .design-grid .episodes-text {
@@ -383,7 +381,6 @@ ul.d-flex {
     height: 25%;
     margin: 0 5rem;
     background-color: #a9a9a9;
-    margin-top: 3rem;
 }
 
 .design-grid .episodes-buttom {
@@ -398,7 +395,6 @@ ul.d-flex {
     background-color: #d3d3d3;
     height: 95%;
     width: 95%;
-    margin: 0 auto;
 }
 
 
@@ -417,7 +413,6 @@ ul.d-flex {
     height: 15%;
     margin: 0 5rem;
     background-color: #808080;
-    margin-top: 3rem;
 }
 
 .guides-child .episodes-buttom {
@@ -433,7 +428,6 @@ ul.d-flex {
     height: 30%;
     margin: 0 5rem;
     background-color: #bebebe;
-    margin-top: 3rem;
 }
 
 .guides-child {
@@ -461,7 +455,6 @@ ul.d-flex {
 .nav-topics {
     height: 40%;
     width: 75%;
-    margin: 0 auto;
 }
 
 .nav-links {
