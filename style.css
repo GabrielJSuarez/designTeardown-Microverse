@@ -256,6 +256,10 @@ ul.d-flex {
     margin-top: 4rem;
 }
 
+.second-cont {
+    grid-template-columns: 1fr 1fr 2fr;
+}
+
 .announcements {
     background-color: #000;
     margin: 0 1rem;
@@ -296,13 +300,13 @@ ul.d-flex {
     background-color: #000;
     height: 80rem;
     margin-top: 5rem;
+    padding: 3rem;
 }
 
 .episodes-img {
-    border-radius: 50%;
     background-color: #fff;
-    height: 30%;
-    width: 20%;
+    height: 45%;
+    width: 58%;
     margin: 0 auto;
 }
 
@@ -315,18 +319,70 @@ ul.d-flex {
 }
 
 .episodes-text {
-    width: 60%;
-    height: 40%;
+    width: 49%;
+    height: 13%;
     margin: 0 auto;
     background-color: #A9A9A9;
     margin-top: 3rem;
 }
 
 .episodes-buttom {
-    width: 20%;
-    height: 8%;
-    margin: 0 auto;
+    width: 25%;
+    height: 13%;
     background-color: #D3D3D3;
-    margin: 0 auto;
-    margin-top: 3rem;
+    margin: 3rem auto;
+    border-radius: 11px;
 }
+
+.person-week-container {
+    margin-top: 2rem;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 30rem;
+    background-color: #000;
+}
+
+.person-img {
+    background-color: #fff;
+    width: 80%;
+    height: 67%;
+    margin: 4rem auto;
+}
+
+.person-title {
+    background-color: #989898;
+    width: 39%;
+    height: 13%;
+    margin: 2rem 1rem;
+}
+
+.person-description {
+    background-color: #D8D8D8;
+    width: 95%;
+    height: 54%;
+    margin: 0 1rem;
+}
+
+.persons-container {
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 2rem;
+    height: 60rem;
+    margin-top: 3rem;
+    background-color: #000;
+    padding: 2rem 1rem;
+}
+
+.person {
+    height: 86%;
+    background-color: #fff;
+    grid-template-columns: 1fr 3fr;
+}
+
+.person .person-img {
+    background-color: #686868;	 
+}
+
+.person .person-title {
+    background-color:#000;	
+}
+
